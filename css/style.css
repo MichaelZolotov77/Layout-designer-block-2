@@ -3,6 +3,10 @@ h2 {
   color: #c775f0;
   text-align: center;
 }
+div {
+  font-style: italic;
+  text-align: center;
+}
 p {
   text-align: center;
 }
