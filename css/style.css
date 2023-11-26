@@ -2,21 +2,7 @@
   box-sizing: border-box;
 }
 
-h2 {
-  text-transform: uppercase;
-  color: #c775f0;
-  text-align: center;
-}
-div {
-  font-style: italic;
-  text-align: center;
-}
-p {
-  text-align: center;
-}
-.brown {
-  color: brown;
-}
-#heading {
-  border-bottom: 1px solid #000;
+.fontlist {
+  list-style: none;
+  list-style-image: url(../img/arrow.png);
 }
