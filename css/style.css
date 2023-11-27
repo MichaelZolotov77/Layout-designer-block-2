@@ -1,6 +1,7 @@
 .product-item__title {
-  /* Если поставить 100%, то элемент вылезет за правый край на величину паддингов плюс бордер */
+  /* Теперь 100% это содержимое внутри border */
   width: 100%;
+  box-sizing: border-box;
   margin: 10px 0;
   padding: 10px 15px;
   line-height: 1;
