@@ -2,10 +2,10 @@
   background-color: chocolate;
   color: #fff;
   padding: 10px 15px;
-  margin: 5px 0;
-  /* Закругление отсчитывается от верхней левой точки */
+  margin: 50px 0;
   border-radius: 0 0 20px 20px;
-  outline: 1px solid red;
+  box-shadow: 5px 5px 20px 10px black;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
 }
 
 .product-item__title {
