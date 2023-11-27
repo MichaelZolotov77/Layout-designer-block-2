@@ -1,61 +1,13 @@
-/* https://www.fontsquirrel.com/ */
-
-/* Сайт для преобразования шрифтов в woff */
-
-/* https://fonts.google.com/ */
-
-/* Загрузка шрифтов с сайта Google Fonts */
-
-/* @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Yanone+Kaffeesatz:wght@700&display=swap"); */
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/montserrat-regular-webfont.woff2") format("woff2"),
-    url("../fonts/montserrat-regular-webfont.woff") format("woff"),
-    url("../fonts/montserrat-regular-webfont.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* Задаем другой базовый размер шрифта */
-html {
-  font-size: 10px;
-}
-
-.fontlist {
-  list-style: none;
+h1 {
+  font-style: italic;
 }
 
 h2 {
-  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
 }
 
-.size {
-  /* font-family: "Yanone Kaffeesatz", sans-serif; */
-  font-family: "Lobster", sans-serif;
-}
-
-/* Стилизация текста */
-.simple {
-  font-size: 20px;
-  font-weight: bolder;
-  font-style: normal;
-  /* text-decoration: line-through; */
-  letter-spacing: 1px;
-  text-shadow: red 1px 1px 10px;
-  text-transform: capitalize;
-}
-
-.complex {
-  width: 60%;
-  font-size: 20px;
-}
-
-/* rem это коэффициент относительно шрифта html */
-.complex span {
-  font-size: 1.6rem;
-}
-
-.more {
-  font-size: 2vw;
+p {
+  font-family: Georgia, serif;
+  font-weight: 300;
 }
