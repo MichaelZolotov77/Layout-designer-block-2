@@ -1,8 +1,9 @@
 .product-item__title {
-  width: 100%;
+  width: 50%;
   height: auto;
   box-sizing: border-box;
-  margin: 10px 0 15px;
+  /* Задав боковые маржины auto, можно расположить по центру */
+  margin: 10px auto;
   padding: 10px 15px;
   line-height: 1;
   border: 1px solid #000;
@@ -10,6 +11,4 @@
 
 .product-item__desctiption {
   border: 1px solid #f00;
-  margin-top: -20px;
 }
-/* Cхлопывание верхних и нижних маржинов, остается который больше */
