@@ -17,6 +17,11 @@
   font-style: normal;
 }
 
+/* Задаем другой базовый размер шрифта */
+html {
+  font-size: 10px;
+}
+
 .fontlist {
   list-style: none;
 }
@@ -46,7 +51,11 @@ h2 {
   font-size: 20px;
 }
 
-/* em это коэффициент относительно родительского шрифта */
+/* rem это коэффициент относительно шрифта html */
 .complex span {
-  font-size: 1.5em;
+  font-size: 1.6rem;
+}
+
+.more {
+  font-size: 2vw;
 }
