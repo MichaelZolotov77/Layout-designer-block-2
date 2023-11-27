@@ -40,3 +40,13 @@ h2 {
   text-shadow: red 1px 1px 10px;
   text-transform: capitalize;
 }
+
+.complex {
+  width: 60%;
+  font-size: 20px;
+}
+
+/* em это коэффициент относительно родительского шрифта */
+.complex span {
+  font-size: 1.5em;
+}
