@@ -1,11 +1,13 @@
-@font-face {
-  font-family: FontName;
-  src: url("path/filename.eot");
-  src: url("path/filename.eot?#iefix") format("embedded-opentype"),
-    url("path/filename.woff2") format("woff2"),
-    url("path/filename.woff") format("woff"),
-    url("path/filename.ttf") format("truetype");
-}
+/* https://www.fontsquirrel.com/ */
+
+/* Сайт для преобразования шрифтов в woff */
+
+/* https://fonts.google.com/ */
+
+/* Загрузка шрифтов с сайта Google Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Yanone+Kaffeesatz:wght@700&display=swap");
+
 @font-face {
   font-family: "Montserrat";
   src: url("../fonts/montserrat-regular-webfont.woff2") format("woff2"),
@@ -21,4 +23,9 @@
 
 h2 {
   font-family: Montserrat, sans-serif;
+}
+
+.size {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  /* font-family: "Lobster", sans-serif; */
 }
