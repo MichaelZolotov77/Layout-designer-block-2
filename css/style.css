@@ -1,8 +1,8 @@
 .product-item__title {
-  /* Теперь 100% это содержимое внутри border */
   width: 100%;
+  height: auto;
   box-sizing: border-box;
-  margin: 10px 0;
+  margin: 10px 0 15px;
   padding: 10px 15px;
   line-height: 1;
   border: 1px solid #000;
@@ -10,4 +10,6 @@
 
 .product-item__desctiption {
   border: 1px solid #f00;
+  margin-top: 10px;
 }
+/* Cхлопывание верхних и нижних маржинов, остается который больше */
