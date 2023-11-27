@@ -1,3 +1,7 @@
+body {
+  background-image: url(../img/bgsmall.jpg);
+}
+
 .product-item {
   background-color: chocolate;
   color: #fff;
