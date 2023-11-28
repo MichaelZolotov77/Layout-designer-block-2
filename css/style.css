@@ -1,9 +1,11 @@
 body {
   background-image: url(../img/bgsmall.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .product-item {
-  background-color: #fff5;
+  background-color: #ff000088;
   color: #fff;
   padding: 10px 15px;
   margin: 50px 0;
