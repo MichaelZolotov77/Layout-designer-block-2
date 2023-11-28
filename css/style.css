@@ -1,17 +1,18 @@
 body {
   background-image: url(../img/bgsmall.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+  margin: 0;
 }
 
 .product-item {
-  background-color: #ff000088;
+  background-color: coral;
   color: #fff;
   padding: 10px 15px;
-  margin: 50px 0;
-  border-radius: 0 0 20px 20px;
-  box-shadow: 5px 5px 20px 10px black;
-  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  margin: 0 0 50px;
+  height: 100vh;
+}
+
+.product-item:first-child {
+  background: url(../img/pic01.jpg);
 }
 
 .product-item__title {
