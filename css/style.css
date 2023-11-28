@@ -14,3 +14,9 @@
 .link:active {
   color: green;
 }
+
+.button {
+  /* теперь это блочный элемент */
+  display: block;
+  background-color: darkslateblue;
+}
