@@ -26,7 +26,14 @@ body {
   /* при этом можно ее сместить */
   background-position: left top;
   background-color: coral;
+  /* параллакс */
   background-attachment: fixed;
+  /* разные режимы смешения цветов */
+  background-blend-mode: normal;
+  /* область расположения фона */
+  background-origin: border-box;
+  /* как будет выводиться фон под границами блока*/
+  background-clip: border-box;
 }
 
 .product-item__title {
