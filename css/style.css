@@ -26,6 +26,7 @@ body {
   /* при этом можно ее сместить */
   background-position: left top;
   background-color: coral;
+  background-attachment: fixed;
 }
 
 .product-item__title {
