@@ -12,7 +12,9 @@ body {
 }
 
 .product-item:first-child {
-  background: url(../img/pic01.jpg);
+  background: url(../img/pic01.jpg) no-repeat, url(../img/pic01.jpg) no-repeat;
+  background-position: top center, bottom center;
+  background-size: 500px;
 }
 
 .product-item__title {
