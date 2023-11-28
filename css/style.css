@@ -16,7 +16,7 @@
 }
 
 .button {
-  /* теперь это блочный элемент */
-  display: block;
+  /* блочно-строчный элемент, блок ведет себя как строка */
+  display: inline-block;
   background-color: darkslateblue;
 }
