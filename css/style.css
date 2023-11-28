@@ -11,10 +11,19 @@ body {
   height: 100vh;
 }
 
+/* так задается первый элемент */
 .product-item:first-child {
   background: url(../img/pic01.jpg) no-repeat, url(../img/pic01.jpg) no-repeat;
   background-position: top center, bottom center;
   background-size: 500px, 200px;
+}
+
+/* так задается второй элемент */
+.product-item:nth-child(2) {
+  background: url(../img/pic01.jpg) no-repeat;
+  /* картинка влезла целиком */
+  background-size: contain;
+  background-color: coral;
 }
 
 .product-item__title {
