@@ -21,8 +21,10 @@ body {
 /* так задается второй элемент */
 .product-item:nth-child(2) {
   background: url(../img/pic01.jpg) no-repeat;
-  /* картинка влезла целиком */
-  background-size: contain;
+  /* картинка занимает всё пространство и обрезается */
+  background-size: cover;
+  /* при этом можно ее сместить */
+  background-position: left top;
   background-color: coral;
 }
 
