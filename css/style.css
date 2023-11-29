@@ -10,7 +10,8 @@ body {
   justify-content: flex-start;
 }
 
-.product__item {
+.product__item,
+p {
   width: 280px;
   height: 200px;
   margin-top: 20px;
@@ -18,10 +19,10 @@ body {
   background-color: cornflowerblue;
 }
 
-.product__item:first-child {
+.product__item:first-of-type {
   background-color: darkkhaki;
 }
 
-.product__item:last-child {
+.product__item:last-of-type {
   background-color: darkgray;
 }
