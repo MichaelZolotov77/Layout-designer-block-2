@@ -1,9 +1,18 @@
-.fa-bell {
-  font-size: 30px;
-  color: red;
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.fa-align-justify {
-  font-size: 50px;
+a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+a:link:hover {
+  color: orange;
+}
+
+a:visited:hover {
   color: darkolivegreen;
 }
