@@ -4,40 +4,24 @@ body {
   box-sizing: border-box;
 }
 
-a {
-  display: inline-block;
-  margin-right: 10px;
-  color: lightblue;
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
-/* для ссылки на гугл */
-a[href="https://google.com"]
-{
-  text-transform: uppercase;
+.product__item {
+  width: 280px;
+  height: 200px;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: cornflowerblue;
 }
 
-/* кроме ссылки с классом bing */
-a:not(.bing) {
-  color: firebrick;
+.product__item:first-child {
+  background-color: darkkhaki;
 }
 
-/* кроме ссылки на гугл */
-a:not([href="https://google.com"])
-{
-  color: blue;
-}
-
-/* кроме ссылок с таргетом */
-a:not([target]) {
-  color: green;
-}
-
-input {
-  border: none;
-  border-bottom: 1px solid black;
-  outline: none;
-}
-
-input:focus {
-  border-bottom: 1px solid blue;
+.product__item:last-child {
+  background-color: darkgray;
 }
