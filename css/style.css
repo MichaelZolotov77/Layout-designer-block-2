@@ -10,8 +10,7 @@ body {
   justify-content: flex-start;
 }
 
-.product__item,
-p {
+.product__item {
   width: 280px;
   height: 200px;
   margin-top: 20px;
@@ -25,4 +24,15 @@ p {
 
 .product__item:last-of-type {
   background-color: darkgray;
+}
+
+/* первые три */
+.product__item:nth-child(-n + 3) {
+  margin-top: 0;
+}
+
+/* каждый третий */
+.product__item:nth-child(3n) {
+  background-color: fuchsia;
+  margin-right: 0;
 }
