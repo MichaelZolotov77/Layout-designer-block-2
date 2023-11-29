@@ -18,6 +18,11 @@ a::after {
   content: "\2706";
 }
 
+a::selection {
+  background-color: greenyellow;
+  color: white;
+}
+
 .products {
   display: flex;
   flex-wrap: wrap;
