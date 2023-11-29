@@ -55,3 +55,8 @@ a::selection {
   background-color: fuchsia;
   margin-right: 0;
 }
+
+/* при наведении на область products меняются цвета у всех product__item */
+.products:hover .product__item {
+  background-color: darkkhaki;
+}
