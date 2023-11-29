@@ -16,3 +16,13 @@ a:link:hover {
 a:visited:hover {
   color: darkolivegreen;
 }
+
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+input:focus {
+  border-bottom: 1px solid blue;
+}
