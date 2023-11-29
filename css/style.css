@@ -7,14 +7,29 @@ body {
 a {
   display: inline-block;
   margin-right: 10px;
+  color: lightblue;
 }
 
-a:link:hover {
-  color: orange;
+/* для ссылки на гугл */
+a[href="https://google.com"]
+{
+  text-transform: uppercase;
 }
 
-a:visited:hover {
-  color: darkolivegreen;
+/* кроме ссылки с классом bing */
+a:not(.bing) {
+  color: firebrick;
+}
+
+/* кроме ссылки на гугл */
+a:not([href="https://google.com"])
+{
+  color: blue;
+}
+
+/* кроме ссылок с таргетом */
+a:not([target]) {
+  color: green;
 }
 
 input {
