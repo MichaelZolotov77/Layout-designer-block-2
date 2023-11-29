@@ -3,24 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="" />
-    <title>Работа со ссылками</title>
+    <title>Images</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1>Работа со ссылками</h1>
-    <h4>Menu</h4>
+    <h1>Images</h1>
+    <h3>Форматы изображений</h3>
     <ul>
-      <li><a href="#link1">Link 1</a></li>
-      <li><a href="#link2">Link 2</a></li>
-      <li><a href="#link3" class="link">Link 3</a></li>
+      <li>JPG/JPEG</li>
+      <li>PNG</li>
+      <li>GIF</li>
+      <li>Webp</li>
     </ul>
-    <p>
-      Lorem ipsum <a href="#2" class="link">dolor sit amet</a> consectetur
-      adipisicing elit.
-    </p>
-
-    <!-- Если нужно перейти на другую страницу, используют ссылки, если нужно открыть всплывающее окно, используют кнопки -->
-    <button class="button">Кнопка</button>
-    <a href="#" class="button">Тоже кнопка</a>
+    <picture>
+      <source type="image/webp" srcset="img/img-2-400.webp" />
+      <source type="image/jpeg" srcset="img/img-2-400.jpg" />
+      <img src="img/img-2-400.jpg" alt="img" />
+    </picture>
   </body>
 </html>
