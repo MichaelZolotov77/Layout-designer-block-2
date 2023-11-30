@@ -11,3 +11,8 @@ img {
   background-color: darkorchid;
   float: left;
 }
+
+h1 {
+  background-color: rebeccapurple;
+  border: 1px solid;
+}
