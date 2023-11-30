@@ -1,31 +1,47 @@
-html,
-body {
-  margin: 0;
+* {
   box-sizing: border-box;
 }
-
-table {
-  border-collapse: collapse;
-  width: 800px;
-  margin: 0 auto;
+.content {
+  width: 70%;
+  height: calc(100vh - 240px);
+  padding: 20px 15px;
 }
 
 td {
-  border: 1px solid black;
-  padding: 8px;
-  vertical-align: middle;
+  border-collapse: collapse;
 }
 
-tr:first-child {
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.widget {
+  background-color: darkkhaki;
+  padding: 20px 15px;
+}
+
+.navbar {
+  background-color: darksalmon;
+  height: 40px;
+}
+
+thead,
+tfoot {
+  background-color: burlywood;
   text-align: center;
 }
 
-tr:nth-child(even) {
-  background-color: #ddd;
+.header {
+  height: 100px;
 }
 
-caption {
-  font-size: 20px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
+tfoot > tr {
+  height: 100px;
+}
+
+.vertical-menu {
+  background-color: dimgrey;
+  width: 200px;
+  text-align: center;
 }
