@@ -4,59 +4,12 @@ body {
   box-sizing: border-box;
 }
 
-a {
-  display: inline-block;
-  margin-right: 10px;
-  color: lightblue;
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
 }
 
-a::before {
-  content: "@";
-}
-
-a::after {
-  content: "\2706";
-}
-
-a::selection {
-  background-color: greenyellow;
-  color: white;
-}
-
-.products {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-
-.product__item {
-  width: 280px;
-  height: 200px;
-  margin-top: 20px;
-  margin-right: 20px;
-  background-color: cornflowerblue;
-}
-
-.product__item:first-of-type {
-  background-color: darkkhaki;
-}
-
-.product__item:last-of-type {
-  background-color: darkgray;
-}
-
-/* первые три */
-.product__item:nth-child(-n + 3) {
-  margin-top: 0;
-}
-
-/* каждый третий */
-.product__item:nth-child(3n) {
-  background-color: fuchsia;
-  margin-right: 0;
-}
-
-/* при наведении на область products меняются цвета у всех product__item */
-.products:hover .product__item {
-  background-color: darkkhaki;
+td {
+  border: 1px solid black;
+  padding: 8px;
 }
