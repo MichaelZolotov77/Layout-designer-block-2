@@ -1,22 +1,16 @@
-/* назначение float автоматически добавляет display: block */
-img {
-  float: left;
-  margin: 10px;
-  opacity: 0.5;
+.wrapper {
+  background-color: dimgray;
 }
 
-.block {
-  width: 100px;
-  height: 100px;
+.wrapper > div {
+  width: 250px;
+  height: 250px;
   background-color: darkorchid;
   float: left;
 }
 
-h1 {
-  background-color: rebeccapurple;
-  border: 1px solid;
-  /* если вылезает за границы, скрываем */
-  overflow: hidden;
-  /* отменить обтекаемость */
-  clear: left;
+.outside {
+  width: 250px;
+  height: 250px;
+  background-color: mediumturquoise;
 }
