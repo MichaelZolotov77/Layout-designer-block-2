@@ -1,31 +1,40 @@
-.hero {
-  position: relative;
-  min-height: 250px;
-  width: 100%;
-  display: flex; /* will be discovered soon */
-  align-items: center; /* will be discovered soon */
+body {
+  margin: 0;
+  background-color: #ccc;
 }
 
-.hero__content {
-  position: absolute;
-  border-radius: 12px;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 0.75rem 1.25rem;
-  color: white;
-  width: 60%;
-  left: 20%;
+h3 {
+  margin-top: 0;
 }
 
-.hero__image {
-  max-width: 100%;
+.products {
+  display: flex;
 }
 
-.hero__title {
-  text-align: center;
+.product-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  max-width: 180px;
+  padding: 20px;
+  margin: 15px;
+  border: 1px solid brown;
+  border-radius: 10px;
 }
 
-.hero__text {
-  display: block;
-  font-size: 18px;
-  text-align: center;
+.product-card:hover {
+  box-shadow: 10px 5px 5px gray;
+}
+
+.button {
+  text-transform: uppercase;
+  padding: 5px 0;
+  border: none;
+  cursor: pointer;
+  align-self: stretch;
+  margin-block-start: auto;
+}
+
+.button:hover {
+  background-color: rgb(107, 209, 107);
 }
