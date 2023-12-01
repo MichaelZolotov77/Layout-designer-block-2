@@ -14,7 +14,7 @@
   width: 0;
   height: 0;
   border: 20px solid;
-  border-color: red blue green black;
+  border-color: transparent transparent transparent black;
 }
 
 .black {
