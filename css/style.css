@@ -39,6 +39,7 @@
   height: 100px;
   background: #716ccc;
   position: fixed;
+  z-index: 30;
   right: 100px;
   top: 50px;
 }
