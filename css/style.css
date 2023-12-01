@@ -6,6 +6,17 @@
   background: #29cc59;
 }
 
+#parent::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -40px;
+  width: 0;
+  height: 0;
+  border: 20px solid;
+  border-color: red blue green black;
+}
+
 .black {
   background: #000;
   color: #fff;
