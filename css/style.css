@@ -1,7 +1,7 @@
 .flexbox {
   display: flex;
   /* направление */
-  flex-direction: row;
+  flex-direction: column;
   /* выравнивание содержимого по основной оси */
   justify-content: space-between;
   /* выравнивание содержимого по поперечной оси */
@@ -18,4 +18,8 @@
 
 .flexbox > div:nth-child(4) {
   align-self: flex-start;
+}
+
+.flexbox > div:nth-child(3) {
+  align-self: stretch;
 }
