@@ -1,55 +1,32 @@
-#parent {
+.root {
+  list-style-type: none;
+  display: inline-block;
   position: relative;
-  top: 100px;
-  width: 300px;
-  height: 200px;
-  background: #29cc59;
+  background: #ccc;
+  padding: 10px 15px;
 }
 
-#parent::after {
-  content: "";
+/* если элементы стоят вплотную, то при переходе на dropdown, root:hover сохраняется */
+.root:hover .dropdown {
+  display: block;
+}
+
+.dropdown {
+  display: none;
   position: absolute;
-  top: 0;
-  right: -40px;
-  top: calc(50% - 20px);
-  width: 0;
-  height: 0;
-  border: 20px solid;
-  border-color: transparent transparent transparent black;
-}
-
-.black {
-  background: #000;
-  color: #fff;
-  z-index: 20;
-  position: relative;
-}
-
-#child {
-  width: 100px;
-  height: 100px;
-  background: #cc5317;
-  position: absolute;
-  top: 15px;
-  right: 0;
-}
-
-#fixed {
-  width: 100px;
-  height: 100px;
+  top: 30px;
+  left: 0;
   background: #716ccc;
-  position: fixed;
-  z-index: 30;
-  right: 100px;
-  top: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
-#sticky {
-  width: 100px;
-  height: 100px;
-  background: #ccc716;
-  position: sticky;
-  top: 40px;
-  right: 0;
-  margin: 0 auto;
+.dropdown > li {
+  cursor: pointer;
+  list-style: none;
+}
+
+.dropdown > li:hover {
+  color: #fff;
 }
