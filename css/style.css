@@ -12,3 +12,12 @@
   z-index: 20;
   position: relative;
 }
+
+#child {
+  width: 100px;
+  height: 100px;
+  background: #cc5317;
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
