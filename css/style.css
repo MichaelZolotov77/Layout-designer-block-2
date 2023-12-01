@@ -1,27 +1,31 @@
-table {
-  border-collapse: collapse;
-  width: 800px;
-  margin: 0 auto;
+.hero {
+  position: relative;
+  min-height: 250px;
+  width: 100%;
+  display: flex; /* will be discovered soon */
+  align-items: center; /* will be discovered soon */
 }
 
-td {
-  border: 1px solid black;
-  padding: 2px;
+.hero__content {
+  position: absolute;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.75rem 1.25rem;
+  color: white;
+  width: 60%;
+  left: 20%;
 }
 
-tr {
+.hero__image {
+  max-width: 100%;
+}
+
+.hero__title {
   text-align: center;
-  vertical-align: top;
-  font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
-caption {
-  font-size: 20px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.child {
-  text-align: start;
+.hero__text {
+  display: block;
+  font-size: 18px;
+  text-align: center;
 }
