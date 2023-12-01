@@ -1,6 +1,9 @@
 .flexbox {
   display: flex;
+  /* направление */
   flex-direction: row;
+  /* выравнивание содержимого по основной оси */
+  justify-content: center;
   background-color: darkslategray;
 }
 
