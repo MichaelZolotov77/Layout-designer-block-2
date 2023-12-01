@@ -3,12 +3,19 @@
   /* направление */
   flex-direction: row;
   /* выравнивание содержимого по основной оси */
-  justify-content: center;
+  justify-content: space-between;
+  /* выравнивание содержимого по поперечной оси */
+  align-items: center;
   background-color: darkslategray;
+  height: 500px;
 }
 
 .flexbox > div {
   border: 1px solid black;
   padding: 10px;
   background-color: deeppink;
+}
+
+.flexbox > div:nth-child(4) {
+  align-self: flex-start;
 }
