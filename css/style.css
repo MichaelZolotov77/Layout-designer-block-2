@@ -16,5 +16,9 @@
   width: 200px;
   height: 100px;
   /* степень жадности элемента до свободного пространства */
+  /* flex-grow: 1; */
+}
+
+.flex-inner:nth-child(3) {
   flex-grow: 1;
 }
