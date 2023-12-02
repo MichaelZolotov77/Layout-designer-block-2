@@ -1,13 +1,15 @@
 .flexwrap {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
   background-color: gray;
   height: 550px;
   /* работает по поперечной оси, теперь по горизонтали */
   align-content: center;
   /* работает с основной осью, теперь по вертикали */
   justify-content: space-around;
+
+  flex-flow: row wrap;
 }
 
 .flex-inner {
