@@ -2,28 +2,25 @@
   box-sizing: border-box;
 }
 
-.cards {
+.flexorder {
   display: flex;
-  justify-content: flex-start;
-  padding: 0 20px;
-  margin-top: 10px;
+  justify-content: center;
+  color: #fff;
 }
 
-.card {
-  display: flex;
-  flex-direction: column;
-  padding: 10px 15px;
-  box-shadow: 0 0 10px 0 black;
-  margin-right: 10px;
-  flex-basis: 250px;
+.flex-inner {
+  width: 50px;
+  height: 40px;
+  background-color: brown;
+  margin: 5px;
+  padding: 5px;
+  order: 5;
 }
 
-.card__text {
-  margin-bottom: 20px;
-  /* поэтому текст в карточке занял максимальное пространство */
-  flex-grow: 1;
+.flex-inner:nth-child(4) {
+  order: 0;
 }
 
-.card__link {
-  text-decoration: none;
+.flex-inner:nth-child(2) {
+  order: 10;
 }
