@@ -1,19 +1,18 @@
 .flexwrap {
   display: flex;
-  /* flex-wrap: wrap; */
-  /* flex-direction: column; */
+  flex-wrap: wrap;
   background-color: gray;
-  height: 550px;
-  /* работает по поперечной оси, теперь по горизонтали */
-  align-content: center;
-  /* работает с основной осью, теперь по вертикали */
-  justify-content: space-around;
-
-  flex-flow: row wrap;
+  height: 500px;
+  align-content: flex-start;
 }
 
 .flex-inner {
+  /* значение для основной оси, применяется для дочерних элементов */
+  flex-basis: 400px;
   background-color: olive;
+  border: 1px solid black;
+  box-sizing: border-box;
+  /* basis перебивает значение width */
   width: 200px;
   height: 100px;
 }
