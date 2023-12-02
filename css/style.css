@@ -1,11 +1,12 @@
 .flexwrap {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   background-color: gray;
-  height: 500px;
-  /* свойство начинает работать при wrap и работает как justify-content */
-  align-content: space-between;
-  /* можно использовать совместно*/
+  height: 550px;
+  /* работает по поперечной оси, теперь по горизонтали */
+  align-content: center;
+  /* работает с основной осью, теперь по вертикали */
   justify-content: space-around;
 }
 
